@@ -127,7 +127,7 @@ class web_source:
     def web_get(web, us, pas):
         web.us = us
         web.pas = pas
-        web.url = "http://oo-ozo.000webhostapp.com/welcome.php?na="+web.us+"&pa="+web.pas
+        web.url = "http://takeko-prog.000webhostapp.com/welcome.php?na="+web.us+"&pa="+web.pas
         import requests as r 
         web.p = r.get(web.url)
 
